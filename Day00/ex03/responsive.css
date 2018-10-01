@@ -1,0 +1,83 @@
+body {background-image: url(https://aoabbu.files.wordpress.com/2014/06/black-background-website-high-definition-wallpaper_black-background-website.jpg) !important;
+box-sizing: border-box;
+width: 100%;}
+
+#wraper{
+	margin: 2%;
+	box-sizing: border-box;
+	width: 100%;
+};
+
+b {text-align: center;}
+
+.symbol {text-align: center;}
+
+.number {font-size: 12px; position: absolute; bottom:0; left:0; padding: 0px; margin: 0 0 0 0;}
+
+.weight {font-size: 12px; position: absolute; top: 0; right: 0; padding: 0px; margin: 0 0px 1px 0px;}
+
+.number > p {margin: 0 0 0 1px;}
+
+.weight > p {margin: 0 1px 0 0;}
+
+.green {background-color: rgb(149, 214, 128);}
+.red {background-color:	 rgb(214, 128, 128);}
+.pink {background-color: rgb(230, 112, 200);}
+.yellow {background-color: rgb(247, 247, 95);}
+.purple {background-color: rgb(171, 91, 251);}
+.gray {background-color: rgb(217, 217, 217);}
+.dgreen {background-color: rgb(38, 153, 0);}
+.blue {background-color: rgb(51, 153, 255);}
+.lgray {background-color: rgb(242, 242, 242);}
+.bpink {background-color: rgb(255, 153, 255);}
+
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+	box-sizing: border-box;
+}
+
+.row{
+	width: 98.5%;
+	box-sizing: border-box;
+}
+
+.case { float: left;
+		padding: 0.55%;
+		width: 5%;
+		border-style: solid;
+		border-width: 3px;
+		border-color: #262626;
+		box-shadow: 1px 1px #e6e6e6;
+		box-sizing: border-box;
+		position: relative;
+		margin: 0.2%;
+		display: inline-block;}
+
+.space1 {
+	float: left;
+	padding: 0.55%;
+	display: inline-block;
+	width: 86.4%;
+	box-sizing: border-box;
+}
+
+.space2 {
+	float: left;
+	padding: 0.55%;
+	display: inline-block;
+	width: 54%;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.space3 {
+	float: left;
+	padding: 0.55%;
+	display: inline-block;
+	width: 16.2%;
+	box-sizing: border-box;
+}
+
+/*  box-sizing: border-box; */
