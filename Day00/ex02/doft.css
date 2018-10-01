@@ -1,0 +1,125 @@
+body {background-color: #505050;}
+
+#header{
+	position: relative;
+	display: block;
+	width: 70%;
+	min-height: 150px;
+	margin: 20px 15% 0 15%;
+	padding: 10px 10px 10px 10px;
+}
+
+.box{
+	display: block;
+	border-style:solid;
+	border-color: #909090;
+	border-radius: 15px;
+	background-color: #909090;
+	box-shadow: 15px 15px 8px;
+}
+
+#main{
+	display: block;
+	width: 70%;
+	margin: 20px 15% 0 15%;
+	padding: 10px 10px 10px 10px;
+}
+
+.leftside{
+	float: left;
+	display: inline-block;
+	width: 10%;
+	margin: 0px 20px 20px 20px;
+	padding: 10px 5px 20px 5px;
+	min-height: 575px;
+	max-height: 575px;
+}
+
+.rightside{
+	float: right;
+	display: inline-block;
+	width: 10%;
+	margin: 5px 20px 20px 20px;
+	min-height: 575px;
+	max-height: 575px;
+}
+
+.block{
+	display: inline-block;
+	width: 70%;
+	margin: 5px 20px 20px 20px;
+	padding: 12px;
+	height: 800px;
+}
+
+.leftimg{
+	max-width: 85px;
+	max-height: 950px;
+	min-width: 85px;
+	min-height: 95px;
+	margin: 15px 0 0 27.5%;
+}
+
+.rightimg{
+	max-width: 100px;
+	max-height: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	margin: 5px 0 0 25%;
+}
+
+#brick{
+	background-image: url(resources/brick.jpg);
+	background-repeat: repeat;
+	width: 150px;
+	min-height: 100px;
+	margin: 5px 15px 5px 14px;
+}
+
+#ikea{
+	position: absolute;
+	z-index: 2;
+	margin: 450px 390px 0;
+	border: 3px solid red;
+	width: 185px;
+	height: 315px;
+}
+
+#apple{
+	position: absolute;
+	z-index: 2;
+	margin: 440px 975px 0;
+	border: 3px solid red;
+	width: 245px;
+	height: 240px;
+}
+
+#greenbox{
+	background-color: #8CFD86;
+	border-radius: 15px;
+	box-shadow: 15px 15px 8px;
+	max-width: 25%;
+	padding: 0 10px 75px 10px;
+	position: absolute;
+	margin: -127px 310px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
