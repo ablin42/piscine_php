@@ -1,6 +1,8 @@
 body {background-image: url(https://aoabbu.files.wordpress.com/2014/06/black-background-website-high-definition-wallpaper_black-background-website.jpg) !important;
 box-sizing: border-box;
-width: 100%;}
+width: 97.5%;
+margin: 0.01%;
+font-size: 0.75vw;}
 
 #wraper{
 	margin: 2%;
@@ -12,9 +14,9 @@ b {text-align: center;}
 
 .symbol {text-align: center;}
 
-.number {font-size: 12px; position: absolute; bottom:0; left:0; padding: 0px; margin: 0 0 0 0;}
+.number {font-size: 0.75vw; position: absolute; bottom:0; left:0; padding: 0px; margin: 0 0 0 0;}
 
-.weight {font-size: 12px; position: absolute; top: 0; right: 0; padding: 0px; margin: 0 0px 1px 0px;}
+.weight {font-size: 0.75vw; position: absolute; top: 0; right: 0; padding: 0px; margin: 0 0px 1px 0px;}
 
 .number > p {margin: 0 0 0 1px;}
 
