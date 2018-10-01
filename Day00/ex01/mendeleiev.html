@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<head>
+	<title>Mendeleiev</title>
+<style type="text/css">
+body {background-color: white;}/*rgb(24, 24, 24)};*/
+.case {	border-style: solid;
+				border-width: 3px;
+				min-width: 75px;
+				min-height: 75px;
+				max-width: 75px;
+				max-height: 75px;
+				position: relative;
+				display: inline-block;}
+.symbol {text-align: center;}
+.number {font-size: 12px; position: absolute; bottom:0; padding: 0px; margin: 0 0 1px 2px;}
+.weight {font-size: 12px; position: absolute; bottom:0; right: 0; padding: 0px; margin: 0 2px 1px 0px;}
+</style>
+</head>
+
+<!-- Each box in the periodic table contains in the middle and in BOLD the symbol of
+	the element, and in small its number, as well as it’s atomic weight, respectively in
+	the lower left and top right corners. -->
+<body style="margin: 0px;">
+	<div style="margin: 2%;"> <!-- main div -->
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>1</p></div>
+				<p class="symbol"><b>H</b></p>
+				<div class="weight"><p style="text-align: right;">1.00795</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>2</p></div>
+				<p class="symbol"><b>He</b></p>
+				<div class="weight"><p style="text-align: right;">4.002602</p></div>
+			</div>
+		</div>
+		</br>
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>3</p></div>
+				<p class="symbol"><b>Li</b></p>
+				<div class="weight"><p style="text-align: right;">6.9395</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>4</p></div>
+				<p class="symbol"><b>Be</b></p>
+				<div class="weight"><p style="text-align: right;">9.0121831</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>5</p></div>
+				<p class="symbol"><b>B</b></p>
+				<div class="weight"><p style="text-align: right;">10.8135</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>6</p></div>
+				<p class="symbol"><b>C</b></p>
+				<div class="weight"><p style="text-align: right;">12.0106</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>7</p></div>
+				<p class="symbol"><b>N</b></p>
+				<div class="weight"><p style="text-align: right;">14.006855</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>8</p></div>
+				<p class="symbol"><b>O</b></p>
+				<div class="weight"><p style="text-align: right;">15.99940</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>9</p></div>
+				<p class="symbol"><b>F</b></p>
+				<div class="weight"><p style="text-align: right;">18.99840316</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>10</p></div>
+				<p class="symbol"><b>Ne</b></p>
+				<div class="weight"><p style="text-align: right;">20.1797</p></div>
+			</div>
+		</div>
+		</br>
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>11</p></div>
+				<p class="symbol"><b>Na</b></p>
+				<div class="weight"><p style="text-align: right;">22.98976928</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>12</p></div>
+				<p class="symbol"><b>Mg</b></p>
+				<div class="weight"><p style="text-align: right;">24.3055</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>13</p></div>
+				<p class="symbol"><b>Al</b></p>
+				<div class="weight"><p style="text-align: right;">26.9815385</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>14</p></div>
+				<p class="symbol"><b>Si</b></p>
+				<div class="weight"><p style="text-align: right;">28.085</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>15</p></div>
+				<p class="symbol"><b>P</b></p>
+				<div class="weight"><p style="text-align: right;">30.97976200</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>16</p></div>
+				<p class="symbol"><b>S</b></p>
+				<div class="weight"><p style="text-align: right;">32.0675</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>17</p></div>
+				<p class="symbol"><b>Cl</b></p>
+				<div class="weight"><p style="text-align: right;">35.4515</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>18</p></div>
+				<p class="symbol"><b>Ar</b></p>
+				<div class="weight"><p style="text-align: right;">39.948</p></div>
+			</div>
+		</div>
+		</br>
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>19</p></div>
+				<p class="symbol"><b>K</b></p>
+				<div class="weight"><p style="text-align: right;">39.0983 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>20</p></div>
+				<p class="symbol"><b>Ca</b></p>
+				<div class="weight"><p style="text-align: right;">40.078 (4)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>21</p></div>
+				<p class="symbol"><b>Sc</b></p>
+				<div class="weight"><p style="text-align: right;">44.955909 (5)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>22</p></div>
+				<p class="symbol"><b>Ti</b></p>
+				<div class="weight"><p style="text-align: right;">47.867 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>23</p></div>
+				<p class="symbol"><b>V</b></p>
+				<div class="weight"><p style="text-align: right;">50.9415 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>24</p></div>
+				<p class="symbol"><b>Cr</b></p>
+				<div class="weight"><p style="text-align: right;">51.9961 (6)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>25</p></div>
+				<p class="symbol"><b>Mn</b></p>
+				<div class="weight"><p style="text-align: right;">54.938044</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>26</p></div>
+				<p class="symbol"><b>Fe</b></p>
+				<div class="weight"><p style="text-align: right;">55.845 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>27</p></div>
+				<p class="symbol"><b>Co</b></p>
+				<div class="weight"><p style="text-align: right;">58.933194</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>28</p></div>
+				<p class="symbol"><b>Ni</b></p>
+				<div class="weight"><p style="text-align: right;">58.6934 (4)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>29</p></div>
+				<p class="symbol"><b>Cu</b></p>
+				<div class="weight"><p style="text-align: right;">63.546 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>30</p></div>
+				<p class="symbol"><b>Zn</b></p>
+				<div class="weight"><p style="text-align: right;">65.38 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>31</p></div>
+				<p class="symbol"><b>Ga</b></p>
+				<div class="weight"><p style="text-align: right;">69.723 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>32</p></div>
+				<p class="symbol"><b>Ge</b></p>
+				<div class="weight"><p style="text-align: right;">72.630 (8)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>33</p></div>
+				<p class="symbol"><b>As</b></p>
+				<div class="weight"><p style="text-align: right;">74.921595</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>34</p></div>
+				<p class="symbol"><b>Se</b></p>
+				<div class="weight"><p style="text-align: right;">78.971 (8)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>35</p></div>
+				<p class="symbol"><b>Br</b></p>
+				<div class="weight"><p style="text-align: right;">79.904</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>36</p></div>
+				<p class="symbol"><b>Kr</b></p>
+				<div class="weight"><p style="text-align: right;">83.798 (2)</p></div>
+			</div>
+		</div>
+		</br>
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>37</p></div>
+				<p class="symbol"><b>Rb</b></p>
+				<div class="weight"><p style="text-align: right;">85.4678 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>38</p></div>
+				<p class="symbol"><b>Sr</b></p>
+				<div class="weight"><p style="text-align: right;">87.62 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>39</p></div>
+				<p class="symbol"><b>Y</b></p>
+				<div class="weight"><p style="text-align: right;">88.90584</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>40</p></div>
+				<p class="symbol"><b>Zr</b></p>
+				<div class="weight"><p style="text-align: right;">91.224 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>41</p></div>
+				<p class="symbol"><b>Nb</b></p>
+				<div class="weight"><p style="text-align: right;">92.90637</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>42</p></div>
+				<p class="symbol"><b>Mo</b></p>
+				<div class="weight"><p style="text-align: right;">95.91 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>43</p></div>
+				<p class="symbol"><b>Tc</b></p>
+				<div class="weight"><p style="text-align: right;">[98]</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>44</p></div>
+				<p class="symbol"><b>Ru</b></p>
+				<div class="weight"><p style="text-align: right;">101.07 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>45</p></div>
+				<p class="symbol"><b>Rh</b></p>
+				<div class="weight"><p style="text-align: right;">102.90550</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>46</p></div>
+				<p class="symbol"><b>Pd</b></p>
+				<div class="weight"><p style="text-align: right;">106.42 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>47</p></div>
+				<p class="symbol"><b>Ag</b></p>
+				<div class="weight"><p style="text-align: right;">107.8682 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>48</p></div>
+				<p class="symbol"><b>Cd</b></p>
+				<div class="weight"><p style="text-align: right;">112.414 (4)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>49</p></div>
+				<p class="symbol"><b>In</b></p>
+				<div class="weight"><p style="text-align: right;">114.818 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>50</p></div>
+				<p class="symbol"><b>Sn</b></p>
+				<div class="weight"><p style="text-align: right;">118.710 (7)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>51</p></div>
+				<p class="symbol"><b>Sb</b></p>
+				<div class="weight"><p style="text-align: right;">121.760 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>52</p></div>
+				<p class="symbol"><b>Te</b></p>
+				<div class="weight"><p style="text-align: right;">127.60 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>53</p></div>
+				<p class="symbol"><b>I</b></p>
+				<div class="weight"><p style="text-align: right;">126.90447</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>54</p></div>
+				<p class="symbol"><b>Xe</b></p>
+				<div class="weight"><p style="text-align: right;">131.293 (6)</p></div>
+			</div>
+		</div>
+		</br>
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>55</p></div>
+				<p class="symbol"><b>Cs</b></p>
+				<div class="weight"><p style="text-align: right;">85.4678 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>56</p></div>
+				<p class="symbol"><b>Ba</b></p>
+				<div class="weight"><p style="text-align: right;">87.62 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>71</p></div>
+				<p class="symbol"><b>Lu</b></p>
+				<div class="weight"><p style="text-align: right;">88.90584</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>72</p></div>
+				<p class="symbol"><b>Hf</b></p>
+				<div class="weight"><p style="text-align: right;">91.224 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>73</p></div>
+				<p class="symbol"><b>Ta</b></p>
+				<div class="weight"><p style="text-align: right;">92.90637</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>74</p></div>
+				<p class="symbol"><b>W</b></p>
+				<div class="weight"><p style="text-align: right;">95.91 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>75</p></div>
+				<p class="symbol"><b>Re</b></p>
+				<div class="weight"><p style="text-align: right;">[98]</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>76</p></div>
+				<p class="symbol"><b>Os</b></p>
+				<div class="weight"><p style="text-align: right;">101.07 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>77</p></div>
+				<p class="symbol"><b>lr</b></p>
+				<div class="weight"><p style="text-align: right;">102.90550</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>78</p></div>
+				<p class="symbol"><b>Pt</b></p>
+				<div class="weight"><p style="text-align: right;">106.42 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>79</p></div>
+				<p class="symbol"><b>Au</b></p>
+				<div class="weight"><p style="text-align: right;">107.8682 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>80</p></div>
+				<p class="symbol"><b>Hg</b></p>
+				<div class="weight"><p style="text-align: right;">112.414 (4)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>81</p></div>
+				<p class="symbol"><b>Ti</b></p>
+				<div class="weight"><p style="text-align: right;">114.818 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>82</p></div>
+				<p class="symbol"><b>Pb</b></p>
+				<div class="weight"><p style="text-align: right;">118.710 (7)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>83</p></div>
+				<p class="symbol"><b>Bi</b></p>
+				<div class="weight"><p style="text-align: right;">121.760 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>84</p></div>
+				<p class="symbol"><b>Po</b></p>
+				<div class="weight"><p style="text-align: right;">127.60 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>85</p></div>
+				<p class="symbol"><b>At</b></p>
+				<div class="weight"><p style="text-align: right;">126.90447</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>86</p></div>
+				<p class="symbol"><b>Rn</b></p>
+				<div class="weight"><p style="text-align: right;">131.293 (6)</p></div>
+			</div>
+		</div>
+		</br>
+		<div class=row>
+			<div class="case">
+				<div class="number"><p>87</p></div>
+				<p class="symbol"><b>Fr</b></p>
+				<div class="weight"><p style="text-align: right;">85.4678 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>88</p></div>
+				<p class="symbol"><b>Ra</b></p>
+				<div class="weight"><p style="text-align: right;">87.62 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>103</p></div>
+				<p class="symbol"><b>Lr</b></p>
+				<div class="weight"><p style="text-align: right;">88.90584</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>104</p></div>
+				<p class="symbol"><b>Rf</b></p>
+				<div class="weight"><p style="text-align: right;">91.224 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>105</p></div>
+				<p class="symbol"><b>Db</b></p>
+				<div class="weight"><p style="text-align: right;">92.90637</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>106</p></div>
+				<p class="symbol"><b>Sg</b></p>
+				<div class="weight"><p style="text-align: right;">95.91 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>107</p></div>
+				<p class="symbol"><b>Bh</b></p>
+				<div class="weight"><p style="text-align: right;">[98]</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>108</p></div>
+				<p class="symbol"><b>Hs</b></p>
+				<div class="weight"><p style="text-align: right;">101.07 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>109</p></div>
+				<p class="symbol"><b>Mt</b></p>
+				<div class="weight"><p style="text-align: right;">102.90550</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>110</p></div>
+				<p class="symbol"><b>Ds</b></p>
+				<div class="weight"><p style="text-align: right;">106.42 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>111</p></div>
+				<p class="symbol"><b>Rg</b></p>
+				<div class="weight"><p style="text-align: right;">107.8682 (2)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>112</p></div>
+				<p class="symbol"><b>Cn</b></p>
+				<div class="weight"><p style="text-align: right;">112.414 (4)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>113</p></div>
+				<p class="symbol"><b>Nh</b></p>
+				<div class="weight"><p style="text-align: right;">114.818 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>114</p></div>
+				<p class="symbol"><b>Fi</b></p>
+				<div class="weight"><p style="text-align: right;">118.710 (7)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>115</p></div>
+				<p class="symbol"><b>Mc</b></p>
+				<div class="weight"><p style="text-align: right;">121.760 (1)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>116</p></div>
+				<p class="symbol"><b>Lv</b></p>
+				<div class="weight"><p style="text-align: right;">127.60 (3)</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>117</p></div>
+				<p class="symbol"><b>Ts</b></p>
+				<div class="weight"><p style="text-align: right;">126.90447</p></div>
+			</div>
+			<div class="case">
+				<div class="number"><p>118</p></div>
+				<p class="symbol"><b>Og</b></p>
+				<div class="weight"><p style="text-align: right;">131.293 (6)</p></div>
+			</div>
+
+
+	</div>
+</body>
+</html>
