@@ -98,6 +98,46 @@ body {background-color: #505050;}
 	height: 185px;
 }
 
+#outside{
+	position: absolute;
+	z-index: 2;
+	margin: 206px 872px 0;
+	width: 50px;
+	height: 50px;
+}
+
+#mac{
+	position: absolute;
+	z-index: 2;
+	margin: 309px 647px 0;
+	width: 100px;
+	height: 100px;;
+}
+
+#home{
+	position: absolute;
+	z-index: 2;
+	margin: 403px -1px 7px;
+	width: 100px;
+	height: 100px;
+}
+
+#cleaner{
+	position: absolute;
+	z-index: 2;
+	margin: 200px 475px 7px;
+	width: 100px;
+	height: 100px;
+}
+
+#cleanerr{
+	position: absolute;
+	z-index: 2;
+	margin: 287px 313px 7px;
+	width: 159px;
+	height: 152px;
+}
+
 #greenbox{
 	background-color: rgb(140, 253, 142);
 	border-radius: 15px;
