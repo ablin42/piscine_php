@@ -47,12 +47,12 @@ body {background-color: #505050;}
 	max-width: 140px;
 	max-height: 415px;
 	padding-top: 15px;
-	margin: 0px -5px 15px 0px;
+	margin: 0px 0px 15px 0px;
 }
 
 .block{
 	display: inline-block;
-	width: 1005px;
+	width: 1000px;
 	margin: 0px 20px 0px 20px;
 	padding: 10px;
 	height: 580px;
@@ -100,12 +100,12 @@ body {background-color: #505050;}
 
 #greenbox{
 	background-color: rgb(140, 253, 142);
-	border-radius: 15px;
+	border-radius: 10px;
 	box-shadow: 12px 12px 8px;
-	width: 500px;
-	height: 160px;
-	max-height: 180px;
-	min-height: 180px;
+	width: 499px;
+	height: 150px;
+	max-height: 150px;
+	min-height: 150px;
 	padding: 10px;
 	position: absolute;
 	margin: -95px 186px 0;
