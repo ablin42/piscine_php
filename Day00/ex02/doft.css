@@ -3,110 +3,139 @@ body {background-color: #505050;}
 #header{
 	position: relative;
 	display: block;
-	width: 70%;
-	min-height: 150px;
-	margin: 20px 15% 0 15%;
-	padding: 10px 10px 10px 10px;
+	width: 1420px;
+	min-width: 1420px;
+	height: 135px;
+	min-height: 115px;
+	margin: 15px 0 0 230px;
+	padding: 10px 10px 0px 10px;
+	box-sizing: border-box;
 }
 
 .box{
 	display: block;
-	border-style:solid;
+	border-style:solidii;
 	border-color: #909090;
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: #909090;
-	box-shadow: 15px 15px 8px;
+	box-shadow: 10px 10px 8px;
 }
 
 #main{
 	display: block;
-	width: 70%;
-	margin: 20px 15% 0 15%;
+	width: 1360px;
+	margin: 17px 0 0 250px;
 	padding: 10px 10px 10px 10px;
 }
 
 .leftside{
 	float: left;
 	display: inline-block;
-	width: 10%;
-	margin: 0px 20px 20px 20px;
-	padding: 10px 5px 20px 5px;
-	min-height: 575px;
-	max-height: 575px;
+	width: 130px;
+	height: 405px;
+	max-width: 130px;
+	max-height: 405px;
+	padding: 15px 5px 10px 5px;
+	margin: 0px 10px 0px 0px;
 }
 
 .rightside{
 	float: right;
 	display: inline-block;
-	width: 10%;
-	margin: 5px 20px 20px 20px;
-	min-height: 575px;
-	max-height: 575px;
+	width: 140px;
+	height: 415px;
+	max-width: 140px;
+	max-height: 415px;
+	padding-top: 15px;
+	margin: 0px -5px 15px 0px;
 }
 
 .block{
 	display: inline-block;
-	width: 70%;
-	margin: 5px 20px 20px 20px;
-	padding: 12px;
-	height: 800px;
+	width: 1005px;
+	margin: 0px 20px 0px 20px;
+	padding: 10px;
+	height: 580px;
 }
 
 .leftimg{
-	max-width: 85px;
-	max-height: 950px;
-	min-width: 85px;
-	min-height: 95px;
-	margin: 15px 0 0 27.5%;
+	max-width: 70px;
+	min-width: 70px;
+	max-height: 65px;
+	min-height: 65px;
+	margin: 5px 0 0 27px;
 }
 
 .rightimg{
-	max-width: 100px;
-	max-height: 100px;
-	min-width: 100px;
-	min-height: 100px;
-	margin: 5px 0 0 25%;
+	max-width: 75px;
+	min-width: 75px;
+	max-height: 65px;
+	min-height: 65px;
+	margin: 10px 0 0 32px;
 }
 
 #brick{
 	background-image: url(resources/brick.jpg);
 	background-repeat: repeat;
-	width: 150px;
-	min-height: 100px;
-	margin: 5px 15px 5px 14px;
+	width: 120px;
+	min-height: 70px;
+	margin: 0px 10px 0px 11px;
 }
 
 #ikea{
 	position: absolute;
 	z-index: 2;
-	margin: 450px 390px 0;
+	margin: 329px 318px 0;
 	border: 3px solid red;
-	width: 185px;
-	height: 315px;
+	width: 145px;
+	height: 238px;
 }
 
 #apple{
 	position: absolute;
 	z-index: 2;
-	margin: 440px 975px 0;
+	margin: 315px 785px 0;
 	border: 3px solid red;
-	width: 245px;
-	height: 240px;
+	width: 195px;
+	height: 185px;
 }
 
 #greenbox{
-	background-color: #8CFD86;
+	background-color: rgb(140, 253, 142);
 	border-radius: 15px;
-	box-shadow: 15px 15px 8px;
-	max-width: 25%;
-	padding: 0 10px 75px 10px;
+	box-shadow: 12px 12px 8px;
+	width: 500px;
+	height: 160px;
+	max-height: 180px;
+	min-height: 180px;
+	padding: 10px;
 	position: absolute;
-	margin: -127px 310px 0;
+	margin: -95px 186px 0;
 }
 
+.greenbox_text
+{
+	font-size: 18px;
+	font-family: Arial, Arial, sans-serif;
+	/*font-family: Helvetica, Helvetica, sans-serif;*/
+	display: inline;
+}
 
-
-
+input {
+	width: 370px;
+	height: 21px;
+	box-sizing: border-box;
+	border-width: 3px;
+	border-style: inset;
+}
+button {
+	border: 1px solid #a4a4a1;
+	height: 21px;
+	width: 78px;
+	font-size: 14px;
+	background-image: linear-gradient(#f0f1f0, #dedede);
+	border-radius: 1px;
+}
 
 
 

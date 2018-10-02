@@ -4,41 +4,43 @@
 	<link rel="stylesheet" href="doft.css">
 </head>
 
-<body>
-	<div id="header" class="box">
-		<img alt="doft" src="resources/day_of_the_42.png" style="max-width: 42%; max-height:100%;"/>
-		<a href="http://www.disney.com"><img alt="Start from the beginning" src="resources/reload.png" style="position: absolute; top:5px; right:10px; max-width: 25px; max-height: 25px;" /></a>
-		<a href="http://www.relaischateaux.com"><img alt="Disconnect" src="resources/close.gif" style="position: absolute; bottom:5px; right:10px; min-height:15px; min-width: 25px;" /></a>
-		<img alt="loupe" src="resources/loupe.png" style="min-height: 200px; min-width: 200px;position: absolute; bottom:-28px; right:50px;" />
+<body title="body">
+	<div id="header" class="box" title="header">
+		<img title="doft" alt="doft" src="resources/day_of_the_42.png" style="max-width: 450px; max-height:110px;"/>
+		<a title="disney" href="http://www.disney.com"><img title="Start from the beginning" alt="Start from the beginning" src="resources/reload.png" style="position: absolute; top:10px; right:10px; max-width: 20px; max-height: 20px;" /></a>
+		<a title="relais" href="http://www.relaischateaux.com"><img title="Disconnect" alt="Disconnect" src="resources/close.gif" style="position: absolute; bottom:10px; right:10px; min-height:20px; min-width: 20px;" /></a>
+		<img title="loupe" alt="loupe" src="resources/loupe.png" style="min-height: 150px;position: absolute; bottom:-20px; right:40px;" />
 	</div>
-	<div id="main">
-		<div class="leftside box">
-			<div><img alt="Advance" class="leftimg" src="resources/arrow.png" /></div>
-			<div><img alt="Take" class="leftimg" src="resources/main.png" /></div>
-			<div><img alt="Look" class="leftimg" src="resources/oeil.png" style="border: 8px solid red; border-radius: 5px;"/></div>
-			<div><img alt="Use" class="leftimg" src="resources/outil.png" /></div>
-			<div><img alt="Speak" class="leftimg" src="resources/chat-icon.png" /></div>
+	<div id="main" title="main">
+		<div class="leftside box" title="left">
+			<div title="adbox"><img title="Advance" alt="Advance" class="leftimg" src="resources/arrow.png" /></div>
+			<div title="tabox"><img title="Take" alt="Take" class="leftimg" src="resources/main.png" /></div>
+			<div title="lobox"><img title="Look" alt="Look" class="leftimg" src="resources/oeil.png" style="border: 5px solid red; border-radius: 5px;"/></div>
+			<div title="usbox"><img title="Use" alt="Use" class="leftimg" src="resources/outil.png" /></div>
+			<div title="spbox"><img title="Speak" alt="Speak" class="leftimg" src="resources/chat-icon.png" /></div>
 		</div>
-		<div class="block box">
-			<a href="http://www.ikea.com"><div alt="ikea" id="ikea"></div></a>
-			<a href="http://www.apple.com"><div alt="apple" id="apple"></div></a>
-			<img alt="cluster" src="resources/cluster.jpg" style="width: 100%; height:100%;" />
+		<div class="block box" title="main_block">
+			<a title="ikealink" href="http://www.ikea.com"><div title="ikea" alt="ikea" id="ikea"></div></a>
+			<a title="applelink" href="http://www.apple.com"><div title="apple" alt="apple" id="apple"></div></a>
+			<img title="cluster" alt="cluster" src="resources/cluster.jpg" style="width: 1005px; height:580px;" />
 		</div>
-		<div class="rightside box">
-			<div><img alt="book" class="rightimg" src="resources/book.png" style="min-height: 130px;" /></div>
-			<div><img alt="towel" class="rightimg" src="resources/towel.png" style="min-height: 75px;" /></div>
-			<div id="brick"></div>
+		<div class="rightside box" title="right">
+			<div title="bobox"><img title="book" alt="book" class="rightimg" src="resources/book.png" style="min-height: 90px;min-width: 71px;margin-left: 35px;margin-top: 5px;" /></div>
+			<div title="tobox"><img title="towel" alt="towel" class="rightimg" src="resources/towel.png" style="min-height: 55px;" /></div>
+			<div title="brick" id="brick"></div>
 		</div>
 	</div>
-	<div id="greenbox">
-		<div>
-			<p style="font-size: 21px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; display:inline">Vous </p>
-			<p style="font-size: 50px; font-family: Times New Roman, Times, serif; display:inline;">entrez</p
-			><p style="font-size: 21px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; display:inline"> alors dans une grande piece remplie d'ordinateurs...</br><i>- Bonjour, vous êtes nouveau ici ?</i></p>
+	<div id="greenbox" title="greenbox">
+		<div title="textdiv">
+			<p title="text1" class="greenbox_text">Vous </p>
+			<p title="textbig" style="font-size: 35px; display:inline;">entrez</p>
+			<p title="text2"class="greenbox_text"> alors dans une grande piece remplie </br>d'</p>
+			<p title="textshadow" class="greenbox_text" style="text-shadow: 5px 7px 5px rgba(220, 20, 60, 0.75);">ordinateurs</p><p title="text..." class="greenbox_text">...</p>
+			</br><p title="endtext" class="greenbox_text"><i>- Bonjour, vous êtes nouveau ici ?</i></p>
 		</div>
-		<form style="height:25px;">
-			<input type="text" style="width: 75%; height:20px;">
-			<input type="submit" value="Repondre" style="width:100px; margin-left: 7px;">
+		<form>
+			<input title="field" type="text" style="width: 380px;">
+			<button title="button">Repondre</button>
 		</form>
 	</div>
 </body>
