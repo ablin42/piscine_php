@@ -15,14 +15,4 @@ if ($argc > 1)
 		echo "{$arr[$j]}\n";
 	}
 }
-/*print_r($arr);
-
-for ($i = 1; $i < $argc; $i++)
-{
-//	$str = trim(preg_replace('/\s+/',' ', $argv[$i]));
-	//	echo "{$str}\n";
-	$arr = preg_split('/ +/', trim($argv[$i]));
-	sort($arr);
-//	print_r($arr);
-}*/
 ?>
