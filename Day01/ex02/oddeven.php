@@ -4,11 +4,16 @@ while (1)
 {
 	print("Entrez un nombre: ");
 	$line = fgets(STDIN);
-	if (feof(STDIN) == true)
-		exit();
 	$trimed = trim($line);
 	if (!is_numeric($trimed))
+	{
+		if (feof(STDIN) == true)
+		{
+			echo "\n";
+			exit();
+		}
 		echo ("'{$trimed}' n'est pas un chiffre\n");
+	}
 	else
 	{
 		if ($trimed % 2 == 0)

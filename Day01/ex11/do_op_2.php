@@ -16,11 +16,7 @@ else if ($argc == 2)
 		$i++;
 	$char = $str[$i];
 	$str[$i] = 'X';
-	//echo "{$str}\n";
-	//$arr = preg_split("/(['+''\-''*''\/''%'])/", $str, -1,  PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
 	$arr = explode("X", $str);
-	//print_r ($arr);
-	//echo "{$char}\n";
 	if (!is_numeric(trim($arr[0])) || !is_numeric(trim($arr[1])) || count($arr) != 2)
 	{
 		print("Syntax Error\n");

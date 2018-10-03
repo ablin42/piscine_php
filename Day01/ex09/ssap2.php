@@ -7,7 +7,8 @@ if ($argc > 1)
 		$str .= " {$argv[$i]} ";
 	$arr = explode(" ", trim($str));
 //	print_r ($arr);
-	natcasesort($arr);
+	//	natcasesort($arr);
+	sort($arr, SORT_REGULAR | SORT_FLAG_CASE);
 	$nb = count($arr);
 	for ($j = 0; $j < $nb; $j++)
 	{
