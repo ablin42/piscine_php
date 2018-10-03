@@ -8,7 +8,7 @@ function ft_split($string)
 		if ($arr[$i] == "")
 			unset ($arr[$i]);
 	}
-	sort($arr);//
+	sort($arr);
 	return $arr;
 }
 ?>

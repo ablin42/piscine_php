@@ -6,7 +6,7 @@ if ($argc < 4)//!=4
 }
 else if ($argc == 4)//>= 4?
 {
-//	print_r($argv);
+	//print_r($argv);
 	for ($i = 1; $i < $argc; $i++)
 		$argv[$i] = trim($argv[$i]);
 //	print_r($argv);
