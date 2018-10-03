@@ -1,10 +1,8 @@
 #!/usr/bin/php
 <?php
-if ($argc < 4)//!=4
-{
+if ($argc != 4)
 	print("Incorrect Parameters\n");
-}
-else if ($argc == 4)//>= 4?
+else if ($argc == 4)
 {
 	//print_r($argv);
 	for ($i = 1; $i < $argc; $i++)
