@@ -6,7 +6,7 @@ if ($argc == 2)
 	$count = count($arr);
 	for ($i = 0; $i < $count - 1; $i++)
 	{
-		if ($arr[$i] != "")
+		if ($arr[$i] !== "")
 		{
 			echo "{$arr[$i]} ";
 		}

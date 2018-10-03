@@ -1,14 +1,39 @@
 #!/usr/bin/php
 <?php
-$str = "";
+
+function custom_sort($a, $b)
+{
+	$ca = strtolower($a);
+	$cb = strtolower($b);
+	$i = 0;
+	$comp = "abcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+	while (($i < strlen($a)) || ($i < strlen($b)))
+	{
+		$posa = strpos($comp, $ca[$i]);
+		$posb = strpos($comp, $cb[$i]);
+		if ($posa < $posb)
+			return (-1);
+		else if ($posa > $posb)
+			return (1);
+		else
+			$i++;
+	}
+}
+
 if ($argc > 1)
 {
+	$str = "";
 	for ($i = 1; $i < $argc; $i++)
 		$str .= " {$argv[$i]} ";
 	$arr = explode(" ", trim($str));
-//	print_r ($arr);
-	//	natcasesort($arr);
-	sort($arr, SORT_REGULAR | SORT_FLAG_CASE);
+	$count = count($arr);
+	for ($i = 0; $i < $count; $i++)
+	{
+		if ($arr[$i] === "")
+			unset ($arr[$i]);
+	}
+	$arr = array_values($arr);
+	usort($arr, "custom_sort");
 	$nb = count($arr);
 	for ($j = 0; $j < $nb; $j++)
 	{
@@ -16,14 +41,11 @@ if ($argc > 1)
 			unset ($arr[$j]);
 	}
 	$arr = array_values($arr);
-//	print_r($arr);
 	foreach ($arr as $val)
 	{
 		if (ctype_alpha($val[0]) == 1)
 			echo "{$val}\n";
 	}
-	sort($arr, SORT_LOCALE_STRING);
-//	print_r($arr);
 	foreach ($arr as $val)
 	{
 		if (ctype_digit($val[0]) == 1)
