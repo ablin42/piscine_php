@@ -17,7 +17,7 @@ if ($argc > 1)
 	if ((strlen($arr[1]) !== 1 && strlen($arr[1]) !== 2) || is_numeric($arr[1]) === false)
 		output_err();
 
-	if (preg_match("/((^[Jj]anvier$)|(^[Ff]evrier$)|(^[Mm]ars$)|(^[Aa]vril$)|(^[Mm]ai$)|(^[Jj]uin$)|(^[Jj]uillet$)|(^[Aa]out$)|(^[Ss]eptembre$)|(^[Nn]ovembre$)|(^[Oo]ctobre$)|(^[Dd]ecembre$))/", $arr[2]) !== 1)
+	if (preg_match("/((^[Jj]anvier$)|(^[Ff]évrier$)|(^[Mm]ars$)|(^[Aa]vril$)|(^[Mm]ai$)|(^[Jj]uin$)|(^[Jj]uillet$)|(^[Aa]oût$)|(^[Ss]eptembre$)|(^[Nn]ovembre$)|(^[Oo]ctobre$)|(^[Dd]écembre$))/", $arr[2]) !== 1)
 		output_err();
 
 	if (strlen($arr[3]) !== 4 || is_numeric($arr[3]) == false)
@@ -39,5 +39,6 @@ if ($argc > 1)
 	date_default_timezone_set('Europe/Paris');//amster
 	$timestamp = mktime($time[0], $time[1], $time[2], $month[$arr[2]], $arr[1], $arr[3]);
 	echo "{$timestamp}\n";
+	<a href="?(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?"?.*(title"?.*"?)?.*>[.]*<\/a>
 }
 ?>
