@@ -39,6 +39,5 @@ if ($argc > 1)
 	date_default_timezone_set('Europe/Paris');//amster
 	$timestamp = mktime($time[0], $time[1], $time[2], $month[$arr[2]], $arr[1], $arr[3]);
 	echo "{$timestamp}\n";
-	<a href="?(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?"?.*(title"?.*"?)?.*>[.]*<\/a>
 }
 ?>
