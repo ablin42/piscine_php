@@ -1,4 +1,6 @@
 <?php
+//hash(), file_get_contents(), file_put_contents(),
+//serialize(), unserialize()
 if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd']))
 {
 	if ($_POST['submit'] === "OK" && $_POST['login'] !== "" && $_POST['passwd'] !== "")
