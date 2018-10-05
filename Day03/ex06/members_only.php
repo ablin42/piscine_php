@@ -1,19 +1,17 @@
 <?php
-//header(), echo. $_SERVER, file_get_contents, base64_encode
-if (isset($_SERVER['PHP_AUTH_USER']) && isset($_SERVER['PHP_AUTH_PW']))
+if ($_SERVER['PHP_AUTH_USER'] === "zaz" && $_SERVER['PHP_AUTH_PW'] === "jaimelespetitsponeys")
 {
-	if ($_SERVER['PHP_AUTH_USER'] === "zaz"
-	&& $_SERVER['PHP_AUTH_PW'] === "jaimelespetitsponeys")
-	{
-
-	}
-	else
-	{
-		//error_msg
-		//header();
-		//<html><body>Cette zone est accessible uniquement aux membres du site</body></html>
-		//* Closing connection #0
-	}
-	header('WWW-Authenticate: Basic realm="My Realm"');
+	$file = base64_encode(file_get_contents("../img/42.png"));
+	echo "<html><body>\n";
+	echo "Bonjour Zaz<br />\n";
+	echo "<img src='data:image/png;base64,{$file}'>\n";
+	echo "</body></html>\n";
+}
+else
+{
+	header("HTTP/1.0 401 Unauthorized");
+	header("WWW-Authenticate: Basic realm=''Espace membres''");
+	echo "<html><body>Cette zone est accessible uniquement aux membres du site</body></html>";
+	exit ();
 }
 ?>
