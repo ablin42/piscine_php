@@ -22,6 +22,7 @@ if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd'])
 	$serialized = serialize($tab);
 	file_put_contents($file, $serialized);
 	echo "OK\n";
+	header("Location: index.html");
 }
 else
 	echo "ERROR\n";

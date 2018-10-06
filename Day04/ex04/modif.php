@@ -17,6 +17,7 @@ if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['newpw']) 
 			$serialized = serialize($tab);
 			file_put_contents($file, $serialized);
 			echo "OK\n";
+			header("Location: index.html");
 			exit ();
 		}
 		else if ($val['login'] === $arr['login'] && $val['passwd'] !== $arr['oldpw'])
