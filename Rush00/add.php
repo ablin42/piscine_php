@@ -1,38 +1,35 @@
 <?php
-session_start(); 
-if (isset($_SESSION['login']) && !empty($_SESSION['login']))
+session_start();
+if (isset($_SESSION['auth']) && $_SESSION['auth'] != 1)
 	header ("Location: index.php");	
-if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd']) && $_POST['submit'] === "OK" && $_POST['login'] !== "" && $_POST['passwd'] !== "")
+else
 {
-	include ("connect_db.php");
-	$login = mysqli_real_escape_string($link, $_POST['login']);
-	$passwd = mysqli_real_escape_string($link, $_POST['passwd']);
-	$passwd = hash(whirlpool, $passwd);
-
-	$res = mysqli_query($link, "SELECT * FROM `users` WHERE `login` = '".$login."' AND `password` = '".$passwd."'");
-	if (mysqli_num_rows($res) >= 1)
+	if (isset($_POST["submit"]) && !empty($_POST["submit"]) && isset($_POST["name"]) && !empty($_POST["name"]) 
+		&& isset($_POST["url"]) && !empty($_POST["url"]) && isset($_POST["prix"]) && !empty($_POST["prix"]) 
+		&& isset($_POST['category']) && !empty($_POST["category"]))
 	{
-		$row = mysqli_fetch_assoc($res);
-   			$_SESSION['auth'] = $row['auth'];
-		$_SESSION['login'] = $login;
-		header ("Location: index.php");
+		include ("connect_db.php");
+	   	$name = mysqli_real_escape_string($link, $_POST['name']);
+		$prix = mysqli_real_escape_string($link, $_POST['prix']);
+		$category = mysqli_real_escape_string($link, $_POST['category']);
+		$url = mysqli_real_escape_string($link, $_POST['url']);
+		mysqli_query($link, "INSERT INTO `items` (`name`, `prix`, `category`, `url`) 
+							VALUES ('".$name."', '".$prix."', '".$category."', '".$url."')"); 
+		mysqli_close($link);
 	}
-	else
-		echo "<p style=\"text-align:center;\">Le mot de passe et le nom de compte ne match pas</p>";
-	mysqli_close($link);
 }
 ?>
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Connexion</title>
+		<title>Ajouter un item</title>
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    </head>
    
 <body>
-		<header>
+	<header>
         <nav class="navbar" id="top" role="navigation">
 	    	<ul class="nav_ul">
 	    		<li class="nav_li" style="float: left;"><a href="index.php" class="nav_link">Home</a></li>
@@ -42,7 +39,7 @@ if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd'])
 	    				echo $_SESSION['login'];
 	    				echo "</a></li>";}
 	    			if ($_SESSION['auth'] == 1){
-	    				echo '<li class="nav_li" style="float:left;"><a href="admin.php" class="nav_link">Administrate</a></li>';}
+	    				echo '<li class="nav_li active" style="float:left;"><a href="admin.php" class="nav_link">Administrate</a></li>';}
 	    		?>
 	    		<li class="nav_li" style="float:left;"><a href="category.php?cat=0" class="nav_link">Billes</a></li>
 	    		<li class="nav_li" style="float:left;"><a href="category.php?cat=1" class="nav_link">Roller</a></li>
@@ -50,7 +47,7 @@ if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd'])
 	    		<li class="nav_li"><a href="panier.php" class="nav_link">Mon panier</a></li>
 	    		<?php 
 	    			if ($_SESSION['login'] == "" ) { 
-	    				echo '<li class="nav_li active"><a href="connexion.php" class="nav_link">Se connecter</a></li>';}
+	    				echo '<li class="nav_li"><a href="connexion.php" class="nav_link">Se connecter</a></li>';}
 	    			if ($_SESSION['login'] == "" ) { 
 	    				echo '<li class="nav_li"><a href="inscription.php" class="nav_link">S\'inscrire</a></li>';}
 	    			if ($_SESSION['login'] != "" ) { 
@@ -61,14 +58,21 @@ if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd'])
 	</header>
 	<div class="main_wrapper">
 		<div class="form_div">
-			<div class="form_hold">
-			<form action="connexion.php" method="post">
-				Identifiant: <input type="text" name="login" value="" required/>
-				<br />
-				Mot de passe: <input type="password" name="passwd" value="" required/>
-				<input type="submit" value="OK" name="submit" />
-			</form>
-			</div>
+		<form action="add.php" method="post" id="formadd">
+			Nom de l'item: <input type="text" name="name" value="" required/>
+			<br />
+			Prix <input type="text" name="prix" value="" required/>
+			<br />
+			Category: 	<select name="category" form="formadd">
+ 					 		<option value="0">Plume</option>
+						 	<option value="1">Bille</option>
+						 	<option value="2">Roller</option>
+						</select>
+			<br />
+			URL de l'image: <input type="text" name="url" value="" required/>
+			<br />
+			<input type="submit" value="ADD" name="submit" />
+		</form>
 		</div>
 	</div>
 	<footer>
