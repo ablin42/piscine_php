@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php
+session_start(); 
+
+?>
 <!DOCTYPE HTML>
 <title>Random site</title>
         <meta charset="utf-8">
@@ -6,13 +9,15 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    </head>
    
-<body style="width: 100%;">
+<body>
 	<header>
         <nav class="navbar" id="top" role="navigation">
 	    	<ul class="nav_ul">
-	    		<li class="nav_li active" style="float: left;"><a href="connexion.php" class="nav_link">Home</a></li>
-	    		<li class="nav_li"><a href="connexion.php" class="nav_link">Se connecter</a></li>
+	    		<li class="nav_li active" style="float: left;"><a href="index.php" class="nav_link">Home</a></li>
+	    		<li class="nav_li" style="float:left;"><a href="panier.php" class="nav_link"><?php if (isset($_SESSION['login'])) echo "{$_SESSION['login']}\n";?></a></li>
 	    		<li class="nav_li"><a href="panier.php" class="nav_link">Mon panier</a></li>
+	    		<li class="nav_li"><a href="connexion.php" class="nav_link">Se connecter</a></li>
+	    		<li class="nav_li"><a href="inscription.php" class="nav_link">S'inscrire</a></li>
 	    	</ul>
         </nav>
 	</header>
