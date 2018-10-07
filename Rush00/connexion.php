@@ -32,11 +32,22 @@ if (isset($_POST['submit']) && isset($_POST['login']) && isset($_POST['passwd'])
 	<header>
         <nav class="navbar" id="top" role="navigation">
 	    	<ul class="nav_ul">
-	    		<li class="nav_li" style="float: left;"><a href="index.php" class="nav_link">Home</a></li>
-	    		<li class="nav_li" style="float:left;"><a href="panier.php" class="nav_link"><?php if (isset($_SESSION['login'])) echo "{$_SESSION['login']}\n";?></a></li>
+	    		<li class="nav_li active" style="float: left;"><a href="index.php" class="nav_link">Home</a></li>
+	    		<?php 
+	    			if ($_SESSION['login'] != "" ) { 
+	    				echo '<li class="nav_li" style="float:left;"><a href="panier.php" class="nav_link">';
+	    				echo $_SESSION['login'];
+	    				echo "</a></li>";}
+	    		?>
 	    		<li class="nav_li"><a href="panier.php" class="nav_link">Mon panier</a></li>
-	    		<li class="nav_li active"><a href="connexion.php" class="nav_link">Se connecter</a></li>
-	    		<li class="nav_li"><a href="inscription.php" class="nav_link">S'inscrire</a></li>
+	    		<?php 
+	    			if ($_SESSION['login'] == "" ) { 
+	    				echo '<li class="nav_li"><a href="connexion.php" class="nav_link">Se connecter</a></li>';}
+	    		?>
+	    		<?php 
+	    			if ($_SESSION['login'] == "" ) { 
+	    				echo '<li class="nav_li"><a href="inscription.php" class="nav_link">S\'inscrire</a></li>';}
+	    		?>
 	    	</ul>
         </nav>
 	</header>

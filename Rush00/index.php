@@ -1,6 +1,5 @@
 <?php
 session_start(); 
-
 ?>
 <!DOCTYPE HTML>
 <title>Random site</title>
@@ -8,16 +7,31 @@ session_start();
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    </head>
-   
+
 <body>
 	<header>
         <nav class="navbar" id="top" role="navigation">
 	    	<ul class="nav_ul">
 	    		<li class="nav_li active" style="float: left;"><a href="index.php" class="nav_link">Home</a></li>
-	    		<li class="nav_li" style="float:left;"><a href="panier.php" class="nav_link"><?php if (isset($_SESSION['login'])) echo "{$_SESSION['login']}\n";?></a></li>
+	    		<?php 
+	    			if ($_SESSION['login'] != "" ) { 
+	    				echo '<li class="nav_li" style="float:left;"><a href="panier.php" class="nav_link">';
+	    				echo $_SESSION['login'];
+	    				echo "</a></li>";}
+	    		?>
 	    		<li class="nav_li"><a href="panier.php" class="nav_link">Mon panier</a></li>
-	    		<li class="nav_li"><a href="connexion.php" class="nav_link">Se connecter</a></li>
-	    		<li class="nav_li"><a href="inscription.php" class="nav_link">S'inscrire</a></li>
+	    		<?php 
+	    			if ($_SESSION['login'] == "" ) { 
+	    				echo '<li class="nav_li"><a href="connexion.php" class="nav_link">Se connecter</a></li>';}
+	    		?>
+	    		<?php 
+	    			if ($_SESSION['login'] == "" ) { 
+	    				echo '<li class="nav_li"><a href="inscription.php" class="nav_link">S\'inscrire</a></li>';}
+	    		?>
+	    		<?php 
+	    			if ($_SESSION['login'] != "" ) { 
+	    				echo '<li class="nav_li"><a href="logout.php" class="nav_link">Se déconnecter</a></li>';}
+	    		?>
 	    	</ul>
         </nav>
 	</header>
