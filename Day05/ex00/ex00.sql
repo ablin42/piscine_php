@@ -1,1 +1,1 @@
-CREATE DATABASE db_ablin;
+CREATE DATABASE `db_ablin`;

@@ -1,6 +1,6 @@
-INSERT INTO ft_table (login, date_de_creation)
-SELECT nom, date_naissance
-FROM fiche_personne
-WHERE nom REGEXP 'a' AND CHAR_LENGTH(nom) < 9
-ORDER BY nom ASC
-LIMIT 10
+INSERT INTO ft_table (`login`, `creation_date`)
+SELECT `last_name`, `birthdate` 
+FROM `user_card`
+WHERE `last_name` REGEXP 'a' AND CHAR_LENGTH(`last_name`) < 9
+ORDER BY `last_name` ASC
+LIMIT 10;
