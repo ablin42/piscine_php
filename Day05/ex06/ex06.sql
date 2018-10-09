@@ -1,4 +1,4 @@
 SELECT `title`, `summary`
 FROM `film`
-WHERE LOWER(`summary`) REGEXP 'vincent'
+WHERE LOWER(`summary`) LIKE '%vincent%'
 ORDER BY `id_film` ASC;

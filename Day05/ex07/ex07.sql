@@ -1,4 +1,4 @@
 SELECT `title`, `summary`
 FROM `film`
-WHERE `title` REGEXP '42' OR `summary` REGEXP '42' 
+WHERE `title` LIKE '%42%' OR `summary` LIKE '%42%' 
 ORDER BY `duration` ASC;
