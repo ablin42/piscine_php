@@ -20,10 +20,25 @@ class UnholyFactory
             print("(Factory can't absorb this, it's not a fighter)" . PHP_EOL);
     }
 
+    private function ft_conv($rf)
+    {
+        if ($rf === "foot soldier")
+            return "Footsoldier";
+        if ($rf === "archer")
+            return "Archer";
+        if ($rf === "assassin")
+            return "Assassin";
+        if ($rf === "llama")
+            return "Llama";
+    }
+
     public function fabricate($rf)
     {
-       // if ()
+       $this->type = $this->ft_conv($rf);
+       if ($this->type !== "Llama")
             print("(Factory fabricates a fighter of type " . $rf . ")" . PHP_EOL);
+       else
+           print("(Factory hasn't absorbed any fighter of type " . $rf . ")" . PHP_EOL);
         return ;
     }
 }
