@@ -2,13 +2,15 @@
 
 class Tyrion extends Lannister
 {
-    public function sleepWith($partner)
-    {
-        if (get_parent_class($partner) === "Lannister")
-            print("Not even if I'm drunk !" . PHP_EOL);
+
+   public function with($char)
+   {
+        if (get_parent_class($char) === "Lannister")
+            return "Not even if I'm drunk !";
         else
-            print("Let's do this." . PHP_EOL);
-    }
+            return "Let's do this";
+   }
+
 }
 
 ?>

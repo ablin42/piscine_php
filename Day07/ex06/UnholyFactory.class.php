@@ -3,6 +3,7 @@
 class UnholyFactory
 {
     private $arr = array();
+    private $type;
     public function absorb ($class)
     {
         if ($class instanceof Fighter)
@@ -14,32 +15,35 @@ class UnholyFactory
                 print("(Factory absorbed a fighter of type ");
                 $this->arr[] = $class;
             }
-            print($class->getClass() . ")" . PHP_EOL);
+            print($class->getClassStr() . ")" . PHP_EOL);
         }
         else
             print("(Factory can't absorb this, it's not a fighter)" . PHP_EOL);
     }
 
-    private function ft_conv($rf)
+    private function getClass($rf)
     {
         if ($rf === "foot soldier")
-            return "Footsoldier";
+            return new Footsoldier;
         if ($rf === "archer")
-            return "Archer";
+            return new Archer;
         if ($rf === "assassin")
-            return "Assassin";
+            return new Assassin;
         if ($rf === "llama")
-            return "Llama";
+            return new Llama;
     }
 
     public function fabricate($rf)
     {
-       $this->type = $this->ft_conv($rf);
-       if ($this->type !== "Llama")
-            print("(Factory fabricates a fighter of type " . $rf . ")" . PHP_EOL);
+       $this->type = $this->getClass($rf);
+       if ($rf !== "llama")
+       {
+           print("(Factory fabricates a fighter of type " . $rf . ")" . PHP_EOL);
+           return $this->type;
+       }
        else
            print("(Factory hasn't absorbed any fighter of type " . $rf . ")" . PHP_EOL);
-        return ;
+        return false;
     }
 }
 

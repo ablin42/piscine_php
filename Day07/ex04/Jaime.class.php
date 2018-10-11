@@ -2,15 +2,18 @@
 
 class Jaime extends Lannister
 {
-    public function sleepWith($partner)
+
+    public function with($char)
     {
-        if (get_class($partner) === "Tyrion")
-            print("Not even if I'm drunk !" . PHP_EOL);
-        else if (get_class($partner) === "Cersei")
-            print("With pleasure, but only in a tower in Winterfell, then." . PHP_EOL);
+        if (get_class($char) === "Cersei")
+            return "With pleasure, but only in a tower in Winterfell, then.";
+        else if (get_parent_class($char) === "Lannister")
+            return "Not even if I'm drunk !";
         else
-            print("Let's do this." . PHP_EOL);
+            return "Let's do this.";
+
     }
+
 }
 
 ?>
