@@ -15,6 +15,7 @@ abstract class Fighter
     {
         return $this->name;
     }
+
 }
 
 ?>
