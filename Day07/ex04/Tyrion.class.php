@@ -8,9 +8,8 @@ class Tyrion extends Lannister
         if (get_parent_class($char) === "Lannister")
             return "Not even if I'm drunk !";
         else
-            return "Let's do this";
+            return "Let's do this.";
    }
 
 }
-
 ?>

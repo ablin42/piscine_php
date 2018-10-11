@@ -15,6 +15,4 @@ class Jaime extends Lannister
     }
 
 }
-
 ?>
-
