@@ -21,7 +21,7 @@ class UnholyFactory
             print("(Factory can't absorb this, it's not a fighter)" . PHP_EOL);
     }
 
-   /* private function getClass($rf)
+    private function getClass($rf)
     {
         if ($rf === "foot soldier")
             return new Footsoldier;
@@ -31,14 +31,14 @@ class UnholyFactory
             return new Assassin;
         if ($rf === "llama")
             return new Llama;
-    }*/
+    }
 
     public function fabricate($rf)
     {
        if (in_array($rf, $this->arr))//if in array Llama after getting type from instance called
        {
            print("(Factory fabricates a fighter of type " . $rf . ")" . PHP_EOL);
-           return $this->class;//$this->getClass($rf);
+           return $this->getClass($rf);
        }
        else
            print("(Factory hasn't absorbed any fighter of type " . $rf . ")" . PHP_EOL);
