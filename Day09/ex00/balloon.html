@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Come blow this balloon</title>
+    <style>
+        #balloon
+        {
+            width:200px;
+            height:200px;
+            border-radius: 100%;
+            background-color:rgb(255, 0, 0);
+            display: inline-block;
+            margin-top: 200px;
+        }
+        body
+        {
+            background-color: rgba(31, 31, 31, 1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="balloon" onclick="changeStyle(this)" onmouseout="revertStyle(this)"></div>
+    <script>
+    function changeStyle(obj)
+    {
+        const style = window.getComputedStyle(obj);
+        const h = parseInt(style.height);
+        const w = parseInt(style.width);
+
+        if (style.backgroundColor === "rgb(255, 0, 0)")
+            obj.style.backgroundColor = "green";
+        else if (style.backgroundColor === "rgb(0, 128, 0)")
+            obj.style.background = "blue";
+        else
+            obj.style.background = "red";
+        obj.style.width = (w + 5) + "px";
+        obj.style.height = (h + 5) + "px";
+        if (h === 420)
+        {
+            obj.style.width = 200 + "px";
+            obj.style.height = 200 + "px";
+            //should change back to red color?
+        }
+    }
+
+    function revertStyle(obj)
+    {
+
+        const style = window.getComputedStyle(obj);
+        const h = parseInt(style.height);
+        const w = parseInt(style.width);
+
+        if (style.backgroundColor === "rgb(255, 0, 0)")
+            obj.style.backgroundColor = "blue";
+        else if (style.backgroundColor === "rgb(0, 128, 0)")
+            obj.style.background = "red";
+        else
+            obj.style.background = "green";
+        if (h > 200)
+        {
+            obj.style.width = (w - 5) + "px";
+            obj.style.height = (h - 5) + "px";
+        }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>It's over 9000</title>
+    <style>
+        body{background-color: #1f1f1f;text-align: center;}
+        #main-wrapper{display: inline-block; margin-top: 300px;}
+        #calc-form{border: 2px solid #af810a; padding: 50px;}
+    </style>
+</head>
+<body>
+<script>setInterval(function() {alert("Please, use me...");}, 30000);</script>
+<div id="main-wrapper">
+    <div id="form-wrapper">
+        <form id="calc-form" onsubmit="formCalc()" name="calc-form" method="post">
+            <input type="text" name="left" />
+            <select name="operator" form="calc-form">
+                <option value="0">+</option>
+                <option value="1">-</option>
+                <option value="2">*</option>
+                <option value="3">/</option>
+                <option value="4">%</option>
+            </select>
+            <input type="text" name="right" />
+            <input type="submit" name="submit" value="Try me!" />
+        </form>
+    </div>
+</div>
+<script>
+    function formCalc()
+    {
+        var left = parseFloat(document.forms["calc-form"]["left"].value);
+        var operator = parseInt(document.forms["calc-form"]["operator"].value);
+        var right = parseFloat(document.forms["calc-form"]["right"].value);
+        var result;
+
+        console.log(right);
+        console.log(operator);
+        if (left < 0 || right < 0 || isNaN(left) || isNaN(right))
+        {
+            alert ("Error :(");
+            return ;
+        }
+        if (right === 0 && (operator === 3 || operator === 4))
+        {
+            alert ("It’s over 9000!");
+            console.log("It’s over 9000!");
+            return ;
+        }
+        switch (operator)
+        {
+            case 0:
+                result = left + right;
+                break;
+            case 1:
+                result = left - right;
+                break;
+            case 2:
+                result = left * right;
+                break;
+            case 3:
+                result = left / right;
+                break;
+            case 4:
+                result = left % right;
+                break;
+        }
+        alert(result);
+        console.log(result);
+    }
+</script>
+</body>
+</html>
