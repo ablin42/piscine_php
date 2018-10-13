@@ -4,36 +4,36 @@ The "piscine" consists of two hard-working weeks, week-end included, with daily 
 Throughout these Days, we will see different kinds of web-related notions.
 The Rushes are team-based (groups of 2; partners chosen randomly) projects during the week-end.
 
-### Day00
+[Day00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day00/D00-subject.pdf)
 > - HTML & CSS
 
-### Day01
+[Day01 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day01/D01-sujet.pdf)
 > - Introduction to PHP
 
-### Day02
+[Day02 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day02/D02-subject.pdf)
 > - Regex based PHP
 
-### Day03
+[Day03 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day03/D03-subject.pdf)
 > - Server side PHP
 > - $_POST
 > - $_GET
 > - Cookies and Sessions handling
 
-### Day04
+[Day04 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day04/D04-subject.pdf)
 > - Network & System admnistration
 
-### Day05
+[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-subject.pdf)
 > - MYSQL
 
-### Day07
+[Day07 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day07/D07-subject.pdf)
 > - Oriented object PHP
 
-### Day09
+[Day09 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day09/D09-subject.pdf)
 > - Javascript
 > - JQuery
 > - AJAX
 
-### Rush00
+[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day00/D00-subject.pdf)
 #### Develop an e-commerce like website implementing:
 > - A database, storing items, users...
 > - Account management (create/edit/delete)
