@@ -17,6 +17,6 @@ function createDiv() {
         div.onclick = function(){
             this.parentElement.removeChild(this);
     };
-        document.getElementById("ft_list").appendChild(div);
+        document.getElementById("ft_list").insertBefore(div, document.getElementById("ft_list").childNodes[0]);
     }
 }
