@@ -22,7 +22,7 @@ The Rushes are team-based (groups of 2; partners chosen randomly) projects durin
 [Day04 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day04/D04-sujet.pdf)
 > - Network & System admnistration
 
-[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-sujet.pdf)
+[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-Sujet.pdf)
 > - MYSQL
 
 [Day07 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day07/D07-sujet.pdf)
@@ -33,7 +33,7 @@ The Rushes are team-based (groups of 2; partners chosen randomly) projects durin
 > - JQuery
 > - AJAX
 
-[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Rush00/Rush00-sujet.pdf)
+[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Rush00/Rush00-Sujet.pdf)
 #### Develop an e-commerce like website implementing:
 > - A database, storing items, users...
 > - Account management (create/edit/delete)
