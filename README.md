@@ -10,30 +10,30 @@ The Rushes are team-based (groups of 2; partners chosen randomly) projects durin
 [Day01 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day01/D01-sujet.pdf)
 > - Introduction to PHP
 
-[Day02 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day02/D02-subject.pdf)
+[Day02 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day02/D02-suject.pdf)
 > - Regex based PHP
 
-[Day03 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day03/D03-subject.pdf)
+[Day03 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day03/D03-suject.pdf)
 > - Server side PHP
 > - $_POST
 > - $_GET
 > - Cookies and Sessions handling
 
-[Day04 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day04/D04-subject.pdf)
+[Day04 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day04/D04-suject.pdf)
 > - Network & System admnistration
 
-[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-subject.pdf)
+[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-suject.pdf)
 > - MYSQL
 
-[Day07 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day07/D07-subject.pdf)
+[Day07 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day07/D07-suject.pdf)
 > - Oriented object PHP
 
-[Day09 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day09/D09-subject.pdf)
+[Day09 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day09/D09-suject.pdf)
 > - Javascript
 > - JQuery
 > - AJAX
 
-[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day00/D00-subject.pdf)
+[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Rush00/Rush00-suject.pdf)
 #### Develop an e-commerce like website implementing:
 > - A database, storing items, users...
 > - Account management (create/edit/delete)
