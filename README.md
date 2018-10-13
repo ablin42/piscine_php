@@ -4,43 +4,43 @@ The "piscine" consists of two hard-working weeks, week-end included, with daily 
 Throughout these Days, we will see different kinds of web-related notions.
 The Rushes are team-based (groups of 2; partners chosen randomly) projects during the week-end.
 
-## Day00
+### Day00
 > - HTML & CSS
 
-## Day01
+### Day01
 > - Introduction to PHP
 
-## Day02
+### Day02
 > - Regex based PHP
 
-## Day03
+### Day03
 > - Server side PHP
 > - $_POST
 > - $_GET
 > - Cookies and Sessions handling
 
-## Day04
+### Day04
 > - Network & System admnistration
 
-## Day05
+### Day05
 > - MYSQL
 
-## Day06
+### Day06
 > - Oriented object PHP
 
-## Day07
+### Day07
 > - Even more Oriented object PHP
 
-## Day08
+### Day08
 > - EVEN MORE Oriented object PHP
 
-## Day09
+### Day09
 > - Javascript
 > - JQuery
 > - AJAX
 
-## Rush00
-### Develop an e-commerce like website implementing:
+### Rush00
+#### Develop an e-commerce like website implementing:
 > - A database, storing items, users...
 > - Account management (create/edit/delete)
 > - Cart management (add items/delete items)...
