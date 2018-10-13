@@ -7,6 +7,7 @@
         body{background-color: #1f1f1f;text-align: center;}
         #main-wrapper{margin-top: 50px; display:inline-block;}
         #button{padding: 15px; width: 100px;}
+        #ft_list{border: 2px solid orange; padding: 15px;}
     </style>
     <script src="todo.js"></script>
 </head>
@@ -15,7 +16,18 @@
 <div id="main-wrapper">
 
     <div id="ft_list">
+    <script>
+        var i = 0;
+        var cname = "todo_" + i;
 
+        while (i < 500)
+        {
+            if (getCookie(cname) != "")
+                loadDiv(getCookie(cname), cname);
+            i++;
+            cname = "todo_" + i;
+        }
+    </script>
     </div>
 
 </div>

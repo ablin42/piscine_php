@@ -35,8 +35,6 @@
         var right = parseFloat(document.forms["calc-form"]["right"].value);
         var result;
 
-        console.log(right);
-        console.log(operator);
         if (left < 0 || right < 0 || isNaN(left) || isNaN(right))
         {
             alert ("Error :(");
@@ -44,8 +42,8 @@
         }
         if (right === 0 && (operator === 3 || operator === 4))
         {
-            alert ("It’s over 9000!");
             console.log("It’s over 9000!");
+            alert ("It’s over 9000!");
             return ;
         }
         switch (operator)
@@ -66,8 +64,8 @@
                 result = left % right;
                 break;
         }
-        alert(result);
         console.log(result);
+        alert(result);
     }
 </script>
 </body>

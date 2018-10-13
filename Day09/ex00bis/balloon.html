@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Come blow this balloon</title>
+    <style>
+        #balloon
+        {
+            width:200px;
+            height:200px;
+            border-radius: 100%;
+            background-color:rgb(255, 0, 0);
+            display: inline-block;
+            margin-top: 200px;
+        }
+        body
+        {
+            background-color: rgba(31, 31, 31, 1);
+            text-align: center;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="balloon"></div>
+<script>
+    $(document).ready(function() {
+        var $balloon = $('#balloon');
+
+        $balloon.click(function(){
+            $balloon.css("width", "+=10");
+            $balloon.css("height", "+=10");
+
+            if ($balloon.css("background-color") === "rgb(255, 0, 0)")
+                $balloon.css("background-color", "green");
+            else if ($balloon.css("background-color") === "rgb(0, 128, 0)")
+                $balloon.css("background-color", "blue");
+            else
+                $balloon.css("background-color", "red");
+            if ($balloon.height() > 420)
+            {
+                $balloon.height(200);
+                $balloon.width(200);
+            }
+        });
+
+        $balloon.mouseout(function() {
+
+            if ($balloon.height() > 200) {
+                $balloon.css("height", "-=5");
+                $balloon.css("width", "-=5");
+            }
+            if ($balloon.css("background-color") === "rgb(255, 0, 0)")
+                $balloon.css("background-color", "blue");
+            else if ($balloon.css("background-color") === "rgb(0, 128, 0)")
+                $balloon.css("background-color", "red");
+            else
+                $balloon.css("background-color", "green");
+        });
+    });
+</script>
+</body>
+</html>

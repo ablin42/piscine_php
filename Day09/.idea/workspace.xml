@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6c454b-afa6-4266-b130-dad4a3a84de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex00/balloon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex01/calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day07/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex00bis/balloon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex01bis/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02bis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02bis/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex00/balloon.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/balloon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../piscine_php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,36 +23,37 @@
     <session id="-1848905634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="js" value="1" />
+          <entry key="html" value="27" />
+          <entry key="js" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="27" />
+          <entry key="JavaScript" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3114" />
-          <entry key="js" value="594" />
+          <entry key="html" value="4548" />
+          <entry key="js" value="2842" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3114" />
-          <entry key="JavaScript" value="594" />
+          <entry key="HTML" value="4548" />
+          <entry key="JavaScript" value="2842" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -62,19 +68,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex02/index.html">
+        <entry file="file://$PROJECT_DIR$/ex02bis/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex02bis/todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex02/todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -89,18 +104,30 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alert</find>
+      <find>console</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex00/balloon.html" />
         <option value="$PROJECT_DIR$/ex01/todo.js" />
         <option value="$PROJECT_DIR$/ex01/index.html" />
+        <option value="$PROJECT_DIR$/ex01bis/idk.js" />
+        <option value="$PROJECT_DIR$/ex02bis/ok.js" />
+        <option value="$PROJECT_DIR$/ex00bis/balloon.html" />
+        <option value="$PROJECT_DIR$/ex00/balloon.html" />
         <option value="$PROJECT_DIR$/ex01/calc.html" />
         <option value="$PROJECT_DIR$/ex02/index.html" />
+        <option value="$PROJECT_DIR$/ex01bis/calc.html" />
         <option value="$PROJECT_DIR$/ex02/todo.js" />
+        <option value="$PROJECT_DIR$/ex02bis/index.html" />
+        <option value="$PROJECT_DIR$/ex02bis/todo.js" />
       </list>
     </option>
   </component>
@@ -123,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,22 +160,18 @@
             <path>
               <item name="Day09" type="b2602c69:ProjectViewProjectNode" />
               <item name="Day09" type="462c0819:PsiDirectoryNode" />
-              <item name="ex00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day09" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day09" type="462c0819:PsiDirectoryNode" />
               <item name="ex02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day09" type="462c0819:PsiDirectoryNode" />
+              <item name="ex02bis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,21 +199,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="calc.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Day09/ex01/calc.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="balloon.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Day09/ex00/balloon.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="balloon.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Day09/ex00bis/balloon.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="calc.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Day09/ex01bis/calc.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Day09/ex02bis/index.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Day09/ex02/index.html">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.calc.html" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.balloon.html (1)" />
+      <item itemvalue="JavaScript Debug.balloon.html" />
+      <item itemvalue="JavaScript Debug.calc.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.calc.html (1)" />
+        <item itemvalue="JavaScript Debug.balloon.html (1)" />
+        <item itemvalue="JavaScript Debug.balloon.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.calc.html" />
       </list>
     </recent_temporary>
   </component>
@@ -208,24 +245,25 @@
       <workItem from="1539350745499" duration="3038000" />
       <workItem from="1539358247829" duration="6175000" />
       <workItem from="1539370840531" duration="1096000" />
-      <workItem from="1539378765734" duration="2613000" />
+      <workItem from="1539378765734" duration="2694000" />
+      <workItem from="1539438436469" duration="16409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12922000" />
+    <option name="totallyTimeSpent" value="29412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1278" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38106796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20064725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3270073" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3270073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -247,31 +285,83 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ex01bis/idk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day00/ex00/baba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex02bis/ok.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ex01/calc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="380">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex00bis/balloon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex00/balloon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex01bis/calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex02/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex02bis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex02/todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex02bis/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
