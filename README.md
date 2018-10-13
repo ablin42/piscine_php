@@ -25,14 +25,8 @@ The Rushes are team-based (groups of 2; partners chosen randomly) projects durin
 ### Day05
 > - MYSQL
 
-### Day06
-> - Oriented object PHP
-
 ### Day07
-> - Even more Oriented object PHP
-
-### Day08
-> - EVEN MORE Oriented object PHP
+> - Oriented object PHP
 
 ### Day09
 > - Javascript
