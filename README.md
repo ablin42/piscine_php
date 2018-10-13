@@ -39,8 +39,8 @@ The Rushes are team-based (groups of 2; partners chosen randomly) projects durin
 > - JQuery
 > - AJAX
 
-### Rush00
-## Develop an e-commerce like website implementing:
+## Rush00
+### Develop an e-commerce like website implementing:
 > - A database, storing items, users...
 > - Account management (create/edit/delete)
 > - Cart management (add items/delete items)...
