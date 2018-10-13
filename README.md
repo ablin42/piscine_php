@@ -10,30 +10,30 @@ The Rushes are team-based (groups of 2; partners chosen randomly) projects durin
 [Day01 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day01/D01-sujet.pdf)
 > - Introduction to PHP
 
-[Day02 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day02/D02-suject.pdf)
+[Day02 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day02/D02-sujet.pdf)
 > - Regex based PHP
 
-[Day03 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day03/D03-suject.pdf)
+[Day03 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day03/D03-sujet.pdf)
 > - Server side PHP
 > - $_POST
 > - $_GET
 > - Cookies and Sessions handling
 
-[Day04 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day04/D04-suject.pdf)
+[Day04 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day04/D04-sujet.pdf)
 > - Network & System admnistration
 
-[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-suject.pdf)
+[Day05 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day05/D05-sujet.pdf)
 > - MYSQL
 
-[Day07 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day07/D07-suject.pdf)
+[Day07 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day07/D07-sujet.pdf)
 > - Oriented object PHP
 
-[Day09 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day09/D09-suject.pdf)
+[Day09 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Day09/D09-sujet.pdf)
 > - Javascript
 > - JQuery
 > - AJAX
 
-[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Rush00/Rush00-suject.pdf)
+[Rush00 PDF Subject(in french)] (https://github.com/ablin42/piscine_php/blob/master/Rush00/Rush00-sujet.pdf)
 #### Develop an e-commerce like website implementing:
 > - A database, storing items, users...
 > - Account management (create/edit/delete)
